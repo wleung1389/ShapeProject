@@ -1,4 +1,17 @@
 package WLeung_SOconnor_JAvila;
 
-public class ShapeProject {
+import javafx.scene.shape.Shape;
+
+public abstract class ShapeProject
+{
+    public abstract class Shape
+    {
+        private String type;
+        public Shape(String type)
+        {
+            this.type = type;
+        }
+        
+    }
 }
+
