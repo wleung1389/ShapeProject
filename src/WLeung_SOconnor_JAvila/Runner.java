@@ -8,6 +8,7 @@ public class Runner
         Shape shape2 = new ETriangle(5);
         Shape shape3 = new Circle(10);
         Shape shape4 = new RPentagon(5);
+        System.out.println("I am a " + shape4 + ".");
         System.out.println("My Perimeter is : " + shape4.getPerimeter());
         System.out.println("My Area is : " + shape4.getArea());
         Shape[] shapes = {shape1, shape2, shape3};
