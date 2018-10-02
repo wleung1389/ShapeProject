@@ -11,7 +11,7 @@ public class ETriangle extends Shape
     @Override
     public double getArea()
     {
-        return Math.sqrt((side*side) - ((side*.5) * (side*.5)))*side;
+        return (Math.sqrt((side*side) - ((side*.5) * (side*.5)))*side)/2;
     }
 
     @Override
